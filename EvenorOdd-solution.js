@@ -5,3 +5,12 @@ function even_or_odd(number) {
           return "Odd"
       }
   }
+  function removeChar(str){
+    let newStr = str.slice(1, -1)
+     return newStr
+     
+     
+   };
+   
+   
+   
