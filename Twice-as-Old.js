@@ -5,13 +5,13 @@
 // Сalculate how many years ago the father was twice as old as his son (or in how many years he will be twice as old).
 
 function twiceAsOld(dadYearsOld, sonYearsOld) {
-  let ageDifference = 0;
+  
   let doubleAge = sonYearsOld * 2
   
   if(dadYearsOld > doubleAge) {
-   ageDifference = dadYearsOld - doubleAge
+   return dadYearsOld - doubleAge
   } else {
-    ageDifference = doubleAge - dadYearsOld
+    return doubleAge - dadYearsOld
   }
-  return ageDifference
+ 
 }
