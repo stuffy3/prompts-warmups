@@ -13,3 +13,9 @@ function getCount(str) {
       }
     return vowelsCount;
   }
+
+function getCount(str) {
+    let vowels = /[aeiou]/gi;
+      return (str.match(vowels)||[]).length 
+
+  }
