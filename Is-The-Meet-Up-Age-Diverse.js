@@ -75,3 +75,23 @@ function isAgeDiverse(list) {
        return false
      }
 }
+
+function isAgeDiverse(list) {
+    const ageList = list.map(x => x.age)
+    if(
+      ageList.some(x =>(x>=0&&x<20)) &&
+      ageList.some(x =>(x>=20&&x<30)) &&
+      ageList.some(x =>(x>=30&&x<40)) &&
+      ageList.some(x =>(x>=40&&x<50)) &&
+      ageList.some(x =>(x>=50&&x<60)) &&
+      ageList.some(x =>(x>=60&&x<70)) &&
+      ageList.some(x =>(x>=70&&x<80)) &&
+      ageList.some(x =>(x>=80&&x<90)) &&
+      ageList.some(x =>(x>=90&&x<100)) &&
+      ageList.some(x =>(x>=100&&x<200))
+    ){
+      return true
+    } else {
+      return false
+    }
+  }
