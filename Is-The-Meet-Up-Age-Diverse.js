@@ -76,6 +76,8 @@ function isAgeDiverse(list) {
      }
 }
 
+//  ||
+
 function isAgeDiverse(list) {
     const ageList = list.map(x => x.age)
     if(
