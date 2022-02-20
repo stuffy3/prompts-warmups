@@ -26,7 +26,7 @@ function getAverageAge(list) {
 
 
 
-  
+  // this is the refactored code
   function getAverageAge(list) {
       return Math.round(list.reduce((prev, curr) => prev + curr.age, 0 ) / list.length)
   }
