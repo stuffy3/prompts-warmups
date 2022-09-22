@@ -9,3 +9,10 @@
 // "Indivisibilities" -> 2 # 'i' occurs seven times and 's' occurs twice
 // "aA11" -> 2 # 'a' and '1'
 // "ABBA" -> 2 # 'A' and 'B' each occur twice
+
+function duplicateCount(text){
+    let arr = text.toLowerCase().split("")
+    arr.forEach(e => console.log(e))
+  }
+  
+
